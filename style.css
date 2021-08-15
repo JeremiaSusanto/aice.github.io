@@ -1,0 +1,20 @@
+.jumbotron {
+  padding-top: 8rem;
+  background-color: var(--container-bg);
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(img/jumbo1.png) fixed;
+  background-size: cover;
+  height: 610px;
+  width: 100%;
+}
+.coordinat {
+  margin-top: 3rem;
+  margin-right: 100px;
+}
+section {
+  padding-top: 5rem;
+  background-color: rgb(228, 225, 225);
+}
+.jumbotron .card {
+  margin-right: 100px;
+  border: 0;
+}
