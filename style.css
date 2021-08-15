@@ -3,18 +3,35 @@
   background-color: var(--container-bg);
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(img/jumbo1.png) fixed;
   background-size: cover;
-  height: 610px;
+  height: 612px;
   width: 100%;
 }
 .coordinat {
   margin-top: 3rem;
   margin-right: 100px;
 }
+.container h1 {
+  padding-bottom: 15px;
+}
+nav {
+  background-color: rgb(225, 225, 225);
+}
 section {
   padding-top: 5rem;
-  background-color: rgb(228, 225, 225);
+  padding-bottom: 12px;
+  background-color: rgb(225, 225, 225);
+}
+.card-body {
+  margin-top: 5px;
 }
 .jumbotron .card {
   margin-right: 100px;
   border: 0;
+}
+.img-fluid {
+  height: 200px;
+}
+
+footer p {
+  font-size: 15px;
 }
