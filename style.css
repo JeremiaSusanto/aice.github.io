@@ -6,10 +6,6 @@
   height: 612px;
   width: 100%;
 }
-.coordinat {
-  margin-top: 3rem;
-  margin-right: 100px;
-}
 .container h1 {
   padding-bottom: 15px;
 }
@@ -21,6 +17,7 @@ section {
   padding-bottom: 12px;
   background-color: rgb(225, 225, 225);
 }
+
 .card-body {
   margin-top: 5px;
 }
@@ -28,10 +25,37 @@ section {
   margin-right: 100px;
   border: 0;
 }
+.jumbotron i {
+  color: #fff;
+  font-size: 20px;
+}
+.media {
+  margin-top: 8px;
+  margin-left: 92%;
+}
+.jumbotron i:hover {
+  color: #222;
+}
 .img-fluid {
   height: 200px;
 }
-
-footer p {
+footer p,
+i {
   font-size: 15px;
+}
+nav i {
+  padding: 5px;
+  font-size: 80%;
+}
+@media all and (max-width: 576px) {
+  .media {
+    margin-left: 75%;
+  }
+  #gallery .card {
+    margin-left: 22%;
+  }
+  .jumbotron .card {
+    margin-right: 25%;
+    border: 0;
+  }
 }
