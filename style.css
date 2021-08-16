@@ -47,15 +47,13 @@ nav i {
   padding: 5px;
   font-size: 80%;
 }
-@media all and (max-width: 576px) {
+@media all and (max-width: 560px) {
   .media {
-    margin-left: 75%;
-  }
-  #gallery .card {
-    margin-left: 22%;
+    margin-left: 80%;
+    flex-direction: row;
   }
   .jumbotron .card {
-    margin-right: 25%;
+    margin-right: 20%;
     border: 0;
   }
 }
