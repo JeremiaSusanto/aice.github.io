@@ -1,3 +1,8 @@
+nav i {
+  padding: 5px;
+  font-size: 80%;
+}
+
 .jumbotron {
   padding-top: 6rem;
   background-color: var(--container-bg);
@@ -5,30 +10,6 @@
   background-size: cover;
   height: 612px;
   width: 100%;
-}
-.container h1 {
-  padding-bottom: 15px;
-}
-nav {
-  background-color: rgb(225, 225, 225);
-}
-section {
-  padding-top: 5rem;
-  padding-bottom: 12px;
-  background-color: rgb(225, 225, 225);
-}
-figure {
-  margin: 15px 100px 0 0;
-  font-family: "Space Grotesk", sans-serif;
-}
-.quote {
-  font-weight: bold;
-}
-.quote:hover {
-  color: #000;
-}
-.card-body {
-  margin-top: 5px;
 }
 .jumbotron .card {
   margin-right: 100px;
@@ -48,14 +29,36 @@ figure {
 .img-fluid {
   height: 200px;
 }
+.container h1 {
+  padding-bottom: 15px;
+}
+#gallery p {
+  font-family: "Space Grotesk", sans-serif;
+}
+section {
+  padding-top: 5rem;
+  padding-bottom: 12px;
+  background-color: rgb(225, 225, 225);
+}
+figure {
+  margin: 15px 100px 0 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+.quote {
+  font-weight: bold;
+}
+.quote:hover {
+  color: #000;
+}
+.card-body {
+  margin-top: 5px;
+}
+
 footer p,
 i {
   font-size: 15px;
 }
-nav i {
-  padding: 5px;
-  font-size: 80%;
-}
+
 @media all and (max-width: 560px) {
   .media {
     margin-left: 80%;
