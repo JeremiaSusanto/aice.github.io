@@ -3,7 +3,7 @@ nav i {
   font-size: 80%;
 }
 
-.jumbotron {
+#jumbotron {
   padding-top: 6rem;
   background-color: var(--container-bg);
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(img/jumbo1.png) fixed;
@@ -11,11 +11,11 @@ nav i {
   height: 612px;
   width: 100%;
 }
-.jumbotron .card {
+#jumbotron .card {
   margin-right: 100px;
   border: 0;
 }
-.jumbotron i {
+#jumbotron i {
   color: #fff;
   font-size: 20px;
 }
@@ -23,7 +23,7 @@ nav i {
   margin-top: 8px;
   margin-left: 92%;
 }
-.jumbotron i:hover {
+#jumbotron i:hover {
   color: #222;
 }
 .img-fluid {
