@@ -12,9 +12,10 @@ nav i {
   width: 100%;
 }
 #jumbotron .card {
-  margin-right: 100px;
   margin-top: 60px;
   border: 0;
+  width: 350px;
+  margin-right: 10%;
 }
 #jumbotron i {
   color: #fff;
@@ -70,20 +71,28 @@ a {
 .form-select {
   border-radius: 0%;
 }
-
+.btn-kirim .btn-loading {
+  margin: 0;
+}
+.alert {
+  margin-bottom: 1px;
+}
 @media all and (max-width: 560px) {
   .media {
-    margin-left: 80%;
+    margin-left: 86%;
     flex-direction: row;
   }
   #jumbotron .card {
-    margin-right: 20%;
-    border: 0;
+    margin-right: 13%;
+    width: 300px;
   }
   figure {
     margin-right: 20px;
   }
   figure p {
     font-size: 19px;
+  }
+  .btn {
+    border-radius: 0%;
   }
 }
