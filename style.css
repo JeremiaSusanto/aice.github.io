@@ -21,12 +21,21 @@ nav i {
   color: #fff;
   font-size: 20px;
 }
+#jumbotron i:hover {
+  color: #222;
+}
 .media {
   margin-top: 30px;
   margin-left: 93%;
 }
-#jumbotron i:hover {
-  color: #222;
+.card .row {
+  --bs-gutter-x: 0;
+}
+.card .btn {
+  border-radius: 0;
+}
+.alert {
+  margin-bottom: 1px;
 }
 .img-fluid {
   height: 200px;
@@ -71,12 +80,7 @@ a {
 .form-select {
   border-radius: 0%;
 }
-.btn-kirim .btn-loading {
-  margin: 0;
-}
-.alert {
-  margin-bottom: 1px;
-}
+
 @media all and (max-width: 560px) {
   .media {
     margin-left: 86%;
@@ -91,8 +95,5 @@ a {
   }
   figure p {
     font-size: 19px;
-  }
-  .btn {
-    border-radius: 0%;
   }
 }
