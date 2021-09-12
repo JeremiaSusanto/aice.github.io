@@ -6,7 +6,7 @@ nav i {
 #jumbotron {
   padding-top: 6rem;
   background-color: var(--container-bg);
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(img/jumbo1.png) fixed;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(img/jumbo2.png) fixed;
   background-size: cover;
   height: 612px;
   width: 100%;
